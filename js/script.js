@@ -7,6 +7,7 @@ var flag = false
 function flagmenu () {
     console.log("mk");
     if(flag) {
+        menu.style.display = "block"
         menu.style.width = "20%";
         smenu.style.width = "100%";
         lis[0].style.display = "block";
