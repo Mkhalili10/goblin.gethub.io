@@ -2,10 +2,9 @@ var menu = document.querySelector(".fixmenu");
 var smenu = document.querySelector(".smenu");
 var menuIcon = document.getElementById("menu")
 var lis = document.querySelectorAll("li")
-var flag = false
+var flag = true
 
 function flagmenu () {
-    console.log("mk");
     if(flag) {
         menu.style.display = "block"
         menu.style.width = "20%";
@@ -30,3 +29,13 @@ function flagmenu () {
 }
 
 menuIcon.addEventListener("click", flagmenu)
+
+function checkWidth() {
+    if (window.innerWidth > 800) {
+        menu.style.display = "none";
+    } 
+}
+
+checkWidth();
+
+window.addEventListener("resize", checkWidth);

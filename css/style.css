@@ -68,7 +68,6 @@ a {
     background-color: rgba(49, 79, 4, 0.486);
 
     width: 20%;
-    height: 45%;
     overflow: hidden;
     transition: ease 1s;
 
@@ -79,7 +78,7 @@ a {
     justify-content: center;
     align-items: center;
 
-    margin: 0;
+    margin: 0 4%;
     width: 100%;
 
     list-style-type: none;
@@ -296,10 +295,6 @@ button {
         font-size: 30px;
     }
 
-    .fixmenu {
-        display: block;
-    }
-
     .bar {
         display: none;
         visibility: hidden;
@@ -339,11 +334,5 @@ button {
     .wathc {
         display: none;
         visibility: hidden;
-    }
-}
-
-@media all and (min-width: 800px) {
-    .fixmenu {
-        display: none;
     }
 }
