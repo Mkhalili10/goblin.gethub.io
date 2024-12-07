@@ -341,3 +341,9 @@ button {
         visibility: hidden;
     }
 }
+
+@media all and (min-width: 800px) {
+    .fixmenu {
+        display: none;
+    }
+}
