@@ -59,7 +59,7 @@ a {
 
 /* responsive menu */
 .fixmenu {
-    display: block;
+    display: none;
     position: fixed;
     right: 0;
     top: 10%;
